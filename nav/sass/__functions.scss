@@ -1,0 +1,14 @@
+/*Aparecer menu*/
+.show {
+  left: 0;
+}
+
+/*Active menu*/
+.active {
+  color: $first-color;
+}
+
+@function px-to-rem($size){
+  $value: $size / 16px;
+  @return #{$value}rem;
+}

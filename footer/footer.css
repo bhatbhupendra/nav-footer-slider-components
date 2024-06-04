@@ -1,0 +1,20 @@
+img{
+  height:100px;
+  width:auto;
+}
+#first__col,#second__col,#third__col{
+  position: relative;
+  animation: col__anim .7s;
+}
+
+@keyframes col__anim {
+  0%{
+    opacity: 0.1;
+    left: -400px;
+  }
+
+  100%{
+    opacity: 1;
+    left: 0;
+  }
+}

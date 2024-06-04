@@ -1,0 +1,14 @@
+.col_green{
+  color: green;
+  font-weight: bold;
+}
+
+.img__1{
+  border-radius: 10px;
+}
+
+
+img.img__1{
+  height:250px;
+  width: auto;
+}

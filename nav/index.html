@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="sass/base.min.css">
+
+        <title>Menu responsive</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__logo">
+              <img src="logo.png" alt="">
+            </div>
+
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content">
+
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+
+                    <div class="nav__profile">
+                        <div class="nav__logo">
+                          <img src="logo.png" alt="">
+                        </div>
+                        <div class="nav__info">
+                            <a href="#" class="nav__name">Hilltop Academy</a>
+                            <span class="nav__address">Jujee-3, Bajhang</span>
+                        </div>
+                    </div>
+
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Gallery</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Cources</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+                            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav__social">
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-instagram"></ion-icon></a>
+                        <a href="#" class="nav__social-icon"><ion-icon name="logo-youtube"></ion-icon></a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- ===== IONICONS ===== -->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
